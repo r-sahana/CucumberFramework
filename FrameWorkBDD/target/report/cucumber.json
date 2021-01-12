@@ -1,0 +1,51 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-05T16:36:58.195Z",
+        "line": 3,
+        "name": "Auto population of suggested destination in search field",
+        "description": "",
+        "id": "destination-search-feature;auto-population-of-suggested-destination-in-search-field",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "User is in welcome page of Booking com",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user searches for a destination",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "relevant destinations should be suggested",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Destination search feature",
+    "description": "",
+    "id": "destination-search-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFile/WelcomePage.feature",
+    "tags": []
+  }
+]
